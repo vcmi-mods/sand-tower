@@ -4,12 +4,17 @@
 	"version" : "1.1",
 	"author" : "J. M. Sower",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?p=11046&sid=c709e37f1a8d8b91d286928e90cf4a8a#11046",
-	"modType" : "Graphical town modifications",
+	"modType" : "Graphical",
 	"changelog" :
 	{
 		"1.1" : [ "Fixes" ],
 		"1.0" : [ "Initial release" ]
 	},
+	"conflicts" :
+	[
+		"quartz",
+		"tides-of-war"
+	],
 	"creatures" :
 	[
 		"config/gold.json",
